@@ -4334,6 +4334,7 @@ CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the Infi
 CMDs[#CMDs + 1] = {NAME = 'CustomGlove1 / Sans', DESC = 'This scripts makes you become sans in Slap Battles (requires Snow glove 195 slaps)'}
 CMDs[#CMDs + 1] = {NAME = 'BootlegKJ / KaitamJ', DESC = 'This scripts makes you become KaitamJ which is Saitama but KJ(Bannable Uses Real KJ Anim)'}
 CMDs[#CMDs + 1] = {NAME = 'Telekinesis / Telek', DESC = 'This scripts lets you have Telekinesis powers like the force(Recommened on pc)'}
+CMDs[#CMDs + 1] = {NAME = 'FESCP096 / scp096', DESC = 'This script lets be be scp 096(R6)'}
 CMDs[#CMDs + 1] = {NAME = 'guiscale [number]', DESC = 'Changes the size of the gui. [number] accepts both decimals and whole numbers. Min is 0.4 and Max is 2'}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'oldconsole', DESC = 'Loads old Roblox console'}
@@ -12462,7 +12463,11 @@ addcmd('CustomGlove1',{'Sans'},function(args, speaker)
 end)
 
 addcmd('Telekinesis',{'Telek'},function(args, speaker)
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/main/qwerty1.lua"))()
+end)
+
+addcmd('FESCP096',{'Scp096'},function(args, speaker)
+    loadstring(game:HttpGet("https://pastefy.app/YsJgITXR/raw"))()
 end)
 
 addcmd('BootlegKJ',{'KaitamJ'},function(args, speaker)
